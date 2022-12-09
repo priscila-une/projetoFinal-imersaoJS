@@ -1,0 +1,26 @@
+{
+  "name": "projetoFinal-imersaoJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscila-une/projetoFinal-imersaoJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscila-une/projetoFinal-imersaoJS/issues"
+  },
+  "homepage": "https://github.com/priscila-une/projetoFinal-imersaoJS#readme",
+  "devDependencies": {
+    "jest": "^29.1.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
