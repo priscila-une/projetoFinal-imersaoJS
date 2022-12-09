@@ -1,16 +1,14 @@
 const Mother = require('./Mothers');
 const Psycologist = require('./Psycologist');
 
+
 class Appointment {
-    constructor(mother, psycologist , schedules){
-        //isntancia mother e psycologa 
-        if(mother instanceof Mother){
+    constructor(mother, psycologist ){
+         
+        if(mother instanceof Mother && psycologist instanceof Psycologist){
             this.mother = mother;
-        }
-        if(psycologist instanceof Psycologist){
             this.psycologist = psycologist;
-            this.psycologist.schedules = schedules;
-        }
+        } 
     }
 }
 
